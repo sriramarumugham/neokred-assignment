@@ -36,7 +36,7 @@ const Login = ({ handleLogin }) => {
         try {
             console.log("data******* trying to submit*****", data);
             const { email, password } = data;
-            const response = await axios.post('http://localhost:8000/login',
+            const response = await axios.post('https://3y9kds-8080.csb.app/login',
                 {
                     email, password
                 }

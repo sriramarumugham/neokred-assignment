@@ -15,7 +15,7 @@ const Home = () => {
           Authorization: 'bearer ' + token,
         }
       }
-      let response = await axios.get('http://localhost:8000/home', config);
+      let response = await axios.get('https://3y9kds-8080.csb.app/home', config);
 
       if (response.data.user) {
         setUser(response.data.user)

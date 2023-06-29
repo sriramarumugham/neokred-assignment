@@ -64,7 +64,7 @@ const Register = ({ handleLogin }) => {
 
     const submitForm = async (data) => {
         try {
-            const response = await axios.post('http://localhost:8000/register',
+            const response = await axios.post('https://3y9kds-8080.csb.app/register',
                 data
             );
 
